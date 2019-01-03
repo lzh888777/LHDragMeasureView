@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1DDF3F4EA8CD9454C8F87B /* libPods-LHDragMeasureView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B662CB2D774D50F885E53C2 /* libPods-LHDragMeasureView.a */; };
+		7E729308FF8686167F7D00C4 /* libPods-LHDragMeasureViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D61976EEDF099F105371F72 /* libPods-LHDragMeasureViewTests.a */; };
+		D74FDB9F21DCA1BF00FF79B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FDB9E21DCA1BF00FF79B7 /* AppDelegate.m */; };
+		D74FDBA221DCA1BF00FF79B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FDBA121DCA1BF00FF79B7 /* ViewController.m */; };
+		D74FDBA521DCA1BF00FF79B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74FDBA321DCA1BF00FF79B7 /* Main.storyboard */; };
+		D74FDBA721DCA1C400FF79B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74FDBA621DCA1C400FF79B7 /* Assets.xcassets */; };
+		D74FDBAA21DCA1C400FF79B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74FDBA821DCA1C400FF79B7 /* LaunchScreen.storyboard */; };
+		D74FDBAD21DCA1C400FF79B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FDBAC21DCA1C400FF79B7 /* main.m */; };
+		D74FDBB721DCA1C400FF79B7 /* LHDragMeasureViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FDBB621DCA1C400FF79B7 /* LHDragMeasureViewTests.m */; };
+		D74FDBC221DCA1C400FF79B7 /* LHDragMeasureViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FDBC121DCA1C400FF79B7 /* LHDragMeasureViewUITests.m */; };
+		D74FDBD221DCA27C00FF79B7 /* LHScrollMeasureView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FDBD121DCA27C00FF79B7 /* LHScrollMeasureView.m */; };
+		ECE45C5293FD53136ACE52FB /* libPods-LHDragMeasureViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B532D62E28748FC3434C7D1A /* libPods-LHDragMeasureViewUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D74FDBB321DCA1C400FF79B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74FDB9221DCA1BF00FF79B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74FDB9921DCA1BF00FF79B7;
+			remoteInfo = LHDragMeasureView;
+		};
+		D74FDBBE21DCA1C400FF79B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74FDB9221DCA1BF00FF79B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74FDB9921DCA1BF00FF79B7;
+			remoteInfo = LHDragMeasureView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B662CB2D774D50F885E53C2 /* libPods-LHDragMeasureView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LHDragMeasureView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D61976EEDF099F105371F72 /* libPods-LHDragMeasureViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LHDragMeasureViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC5444576202C245A666EAB /* Pods-LHDragMeasureViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHDragMeasureViewTests.debug.xcconfig"; path = "Target Support Files/Pods-LHDragMeasureViewTests/Pods-LHDragMeasureViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		856A9EB437212DBB6AA06E33 /* Pods-LHDragMeasureView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHDragMeasureView.release.xcconfig"; path = "Target Support Files/Pods-LHDragMeasureView/Pods-LHDragMeasureView.release.xcconfig"; sourceTree = "<group>"; };
+		B532D62E28748FC3434C7D1A /* libPods-LHDragMeasureViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LHDragMeasureViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6CC534D163DA72DE36DB1A /* Pods-LHDragMeasureViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHDragMeasureViewUITests.release.xcconfig"; path = "Target Support Files/Pods-LHDragMeasureViewUITests/Pods-LHDragMeasureViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0FE4E86C7BA6898BBB121C0 /* Pods-LHDragMeasureViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHDragMeasureViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-LHDragMeasureViewUITests/Pods-LHDragMeasureViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D46A9B60D3583743E2F8C902 /* Pods-LHDragMeasureView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHDragMeasureView.debug.xcconfig"; path = "Target Support Files/Pods-LHDragMeasureView/Pods-LHDragMeasureView.debug.xcconfig"; sourceTree = "<group>"; };
+		D74FDB9A21DCA1BF00FF79B7 /* LHDragMeasureView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHDragMeasureView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74FDB9D21DCA1BF00FF79B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D74FDB9E21DCA1BF00FF79B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D74FDBA021DCA1BF00FF79B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D74FDBA121DCA1BF00FF79B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D74FDBA421DCA1BF00FF79B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D74FDBA621DCA1C400FF79B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D74FDBA921DCA1C400FF79B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D74FDBAB21DCA1C400FF79B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74FDBAC21DCA1C400FF79B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D74FDBB221DCA1C400FF79B7 /* LHDragMeasureViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHDragMeasureViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74FDBB621DCA1C400FF79B7 /* LHDragMeasureViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHDragMeasureViewTests.m; sourceTree = "<group>"; };
+		D74FDBB821DCA1C400FF79B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74FDBBD21DCA1C400FF79B7 /* LHDragMeasureViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHDragMeasureViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74FDBC121DCA1C400FF79B7 /* LHDragMeasureViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHDragMeasureViewUITests.m; sourceTree = "<group>"; };
+		D74FDBC321DCA1C400FF79B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74FDBD021DCA27C00FF79B7 /* LHScrollMeasureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHScrollMeasureView.h; sourceTree = "<group>"; };
+		D74FDBD121DCA27C00FF79B7 /* LHScrollMeasureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHScrollMeasureView.m; sourceTree = "<group>"; };
+		D74FDBD321DCA3D200FF79B7 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		E04CBC3AEC962204E59A634F /* Pods-LHDragMeasureViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHDragMeasureViewTests.release.xcconfig"; path = "Target Support Files/Pods-LHDragMeasureViewTests/Pods-LHDragMeasureViewTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74FDB9721DCA1BF00FF79B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1DDF3F4EA8CD9454C8F87B /* libPods-LHDragMeasureView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74FDBAF21DCA1C400FF79B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E729308FF8686167F7D00C4 /* libPods-LHDragMeasureViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74FDBBA21DCA1C400FF79B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE45C5293FD53136ACE52FB /* libPods-LHDragMeasureViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DB799C0160D964D1B178AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B662CB2D774D50F885E53C2 /* libPods-LHDragMeasureView.a */,
+				4D61976EEDF099F105371F72 /* libPods-LHDragMeasureViewTests.a */,
+				B532D62E28748FC3434C7D1A /* libPods-LHDragMeasureViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A76A24502FAC8886EA27FB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D46A9B60D3583743E2F8C902 /* Pods-LHDragMeasureView.debug.xcconfig */,
+				856A9EB437212DBB6AA06E33 /* Pods-LHDragMeasureView.release.xcconfig */,
+				7FC5444576202C245A666EAB /* Pods-LHDragMeasureViewTests.debug.xcconfig */,
+				E04CBC3AEC962204E59A634F /* Pods-LHDragMeasureViewTests.release.xcconfig */,
+				C0FE4E86C7BA6898BBB121C0 /* Pods-LHDragMeasureViewUITests.debug.xcconfig */,
+				BB6CC534D163DA72DE36DB1A /* Pods-LHDragMeasureViewUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D74FDB9121DCA1BF00FF79B7 = {
+			isa = PBXGroup;
+			children = (
+				D74FDB9C21DCA1BF00FF79B7 /* LHDragMeasureView */,
+				D74FDBB521DCA1C400FF79B7 /* LHDragMeasureViewTests */,
+				D74FDBC021DCA1C400FF79B7 /* LHDragMeasureViewUITests */,
+				D74FDB9B21DCA1BF00FF79B7 /* Products */,
+				4A76A24502FAC8886EA27FB1 /* Pods */,
+				2DB799C0160D964D1B178AE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D74FDB9B21DCA1BF00FF79B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74FDB9A21DCA1BF00FF79B7 /* LHDragMeasureView.app */,
+				D74FDBB221DCA1C400FF79B7 /* LHDragMeasureViewTests.xctest */,
+				D74FDBBD21DCA1C400FF79B7 /* LHDragMeasureViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D74FDB9C21DCA1BF00FF79B7 /* LHDragMeasureView */ = {
+			isa = PBXGroup;
+			children = (
+				D74FDBCF21DCA20C00FF79B7 /* MeasureView */,
+				D74FDB9D21DCA1BF00FF79B7 /* AppDelegate.h */,
+				D74FDB9E21DCA1BF00FF79B7 /* AppDelegate.m */,
+				D74FDBA021DCA1BF00FF79B7 /* ViewController.h */,
+				D74FDBA121DCA1BF00FF79B7 /* ViewController.m */,
+				D74FDBA321DCA1BF00FF79B7 /* Main.storyboard */,
+				D74FDBA621DCA1C400FF79B7 /* Assets.xcassets */,
+				D74FDBA821DCA1C400FF79B7 /* LaunchScreen.storyboard */,
+				D74FDBAB21DCA1C400FF79B7 /* Info.plist */,
+				D74FDBAC21DCA1C400FF79B7 /* main.m */,
+			);
+			path = LHDragMeasureView;
+			sourceTree = "<group>";
+		};
+		D74FDBB521DCA1C400FF79B7 /* LHDragMeasureViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D74FDBB621DCA1C400FF79B7 /* LHDragMeasureViewTests.m */,
+				D74FDBB821DCA1C400FF79B7 /* Info.plist */,
+			);
+			path = LHDragMeasureViewTests;
+			sourceTree = "<group>";
+		};
+		D74FDBC021DCA1C400FF79B7 /* LHDragMeasureViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D74FDBC121DCA1C400FF79B7 /* LHDragMeasureViewUITests.m */,
+				D74FDBC321DCA1C400FF79B7 /* Info.plist */,
+			);
+			path = LHDragMeasureViewUITests;
+			sourceTree = "<group>";
+		};
+		D74FDBCF21DCA20C00FF79B7 /* MeasureView */ = {
+			isa = PBXGroup;
+			children = (
+				D74FDBD021DCA27C00FF79B7 /* LHScrollMeasureView.h */,
+				D74FDBD121DCA27C00FF79B7 /* LHScrollMeasureView.m */,
+				D74FDBD321DCA3D200FF79B7 /* Macro.h */,
+			);
+			path = MeasureView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D74FDB9921DCA1BF00FF79B7 /* LHDragMeasureView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74FDBC621DCA1C400FF79B7 /* Build configuration list for PBXNativeTarget "LHDragMeasureView" */;
+			buildPhases = (
+				51677D04602DF42240F6482B /* [CP] Check Pods Manifest.lock */,
+				D74FDB9621DCA1BF00FF79B7 /* Sources */,
+				D74FDB9721DCA1BF00FF79B7 /* Frameworks */,
+				D74FDB9821DCA1BF00FF79B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHDragMeasureView;
+			productName = LHDragMeasureView;
+			productReference = D74FDB9A21DCA1BF00FF79B7 /* LHDragMeasureView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D74FDBB121DCA1C400FF79B7 /* LHDragMeasureViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74FDBC921DCA1C400FF79B7 /* Build configuration list for PBXNativeTarget "LHDragMeasureViewTests" */;
+			buildPhases = (
+				E6C875DDFD3575F5E8E217F1 /* [CP] Check Pods Manifest.lock */,
+				D74FDBAE21DCA1C400FF79B7 /* Sources */,
+				D74FDBAF21DCA1C400FF79B7 /* Frameworks */,
+				D74FDBB021DCA1C400FF79B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74FDBB421DCA1C400FF79B7 /* PBXTargetDependency */,
+			);
+			name = LHDragMeasureViewTests;
+			productName = LHDragMeasureViewTests;
+			productReference = D74FDBB221DCA1C400FF79B7 /* LHDragMeasureViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D74FDBBC21DCA1C400FF79B7 /* LHDragMeasureViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74FDBCC21DCA1C400FF79B7 /* Build configuration list for PBXNativeTarget "LHDragMeasureViewUITests" */;
+			buildPhases = (
+				CDC1825C7FED74503A3625BB /* [CP] Check Pods Manifest.lock */,
+				D74FDBB921DCA1C400FF79B7 /* Sources */,
+				D74FDBBA21DCA1C400FF79B7 /* Frameworks */,
+				D74FDBBB21DCA1C400FF79B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74FDBBF21DCA1C400FF79B7 /* PBXTargetDependency */,
+			);
+			name = LHDragMeasureViewUITests;
+			productName = LHDragMeasureViewUITests;
+			productReference = D74FDBBD21DCA1C400FF79B7 /* LHDragMeasureViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74FDB9221DCA1BF00FF79B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = TouchPal;
+				TargetAttributes = {
+					D74FDB9921DCA1BF00FF79B7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D74FDBB121DCA1C400FF79B7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D74FDB9921DCA1BF00FF79B7;
+					};
+					D74FDBBC21DCA1C400FF79B7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D74FDB9921DCA1BF00FF79B7;
+					};
+				};
+			};
+			buildConfigurationList = D74FDB9521DCA1BF00FF79B7 /* Build configuration list for PBXProject "LHDragMeasureView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D74FDB9121DCA1BF00FF79B7;
+			productRefGroup = D74FDB9B21DCA1BF00FF79B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D74FDB9921DCA1BF00FF79B7 /* LHDragMeasureView */,
+				D74FDBB121DCA1C400FF79B7 /* LHDragMeasureViewTests */,
+				D74FDBBC21DCA1C400FF79B7 /* LHDragMeasureViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D74FDB9821DCA1BF00FF79B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74FDBAA21DCA1C400FF79B7 /* LaunchScreen.storyboard in Resources */,
+				D74FDBA721DCA1C400FF79B7 /* Assets.xcassets in Resources */,
+				D74FDBA521DCA1BF00FF79B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74FDBB021DCA1C400FF79B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74FDBBB21DCA1C400FF79B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51677D04602DF42240F6482B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LHDragMeasureView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC1825C7FED74503A3625BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LHDragMeasureViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C875DDFD3575F5E8E217F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LHDragMeasureViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D74FDB9621DCA1BF00FF79B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74FDBA221DCA1BF00FF79B7 /* ViewController.m in Sources */,
+				D74FDBAD21DCA1C400FF79B7 /* main.m in Sources */,
+				D74FDB9F21DCA1BF00FF79B7 /* AppDelegate.m in Sources */,
+				D74FDBD221DCA27C00FF79B7 /* LHScrollMeasureView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74FDBAE21DCA1C400FF79B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74FDBB721DCA1C400FF79B7 /* LHDragMeasureViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74FDBB921DCA1C400FF79B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74FDBC221DCA1C400FF79B7 /* LHDragMeasureViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D74FDBB421DCA1C400FF79B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74FDB9921DCA1BF00FF79B7 /* LHDragMeasureView */;
+			targetProxy = D74FDBB321DCA1C400FF79B7 /* PBXContainerItemProxy */;
+		};
+		D74FDBBF21DCA1C400FF79B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74FDB9921DCA1BF00FF79B7 /* LHDragMeasureView */;
+			targetProxy = D74FDBBE21DCA1C400FF79B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D74FDBA321DCA1BF00FF79B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74FDBA421DCA1BF00FF79B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D74FDBA821DCA1C400FF79B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74FDBA921DCA1C400FF79B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D74FDBC421DCA1C400FF79B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D74FDBC521DCA1C400FF79B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74FDBC721DCA1C400FF79B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46A9B60D3583743E2F8C902 /* Pods-LHDragMeasureView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8HYX6956;
+				INFOPLIST_FILE = LHDragMeasureView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.personal.demo.measureView.LHDragMeasureView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D74FDBC821DCA1C400FF79B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856A9EB437212DBB6AA06E33 /* Pods-LHDragMeasureView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8HYX6956;
+				INFOPLIST_FILE = LHDragMeasureView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.personal.demo.measureView.LHDragMeasureView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D74FDBCA21DCA1C400FF79B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC5444576202C245A666EAB /* Pods-LHDragMeasureViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8HYX6956;
+				INFOPLIST_FILE = LHDragMeasureViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.personal.demo.measureView.LHDragMeasureViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHDragMeasureView.app/LHDragMeasureView";
+			};
+			name = Debug;
+		};
+		D74FDBCB21DCA1C400FF79B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04CBC3AEC962204E59A634F /* Pods-LHDragMeasureViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8HYX6956;
+				INFOPLIST_FILE = LHDragMeasureViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.personal.demo.measureView.LHDragMeasureViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHDragMeasureView.app/LHDragMeasureView";
+			};
+			name = Release;
+		};
+		D74FDBCD21DCA1C400FF79B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0FE4E86C7BA6898BBB121C0 /* Pods-LHDragMeasureViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8HYX6956;
+				INFOPLIST_FILE = LHDragMeasureViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.personal.demo.measureView.LHDragMeasureViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LHDragMeasureView;
+			};
+			name = Debug;
+		};
+		D74FDBCE21DCA1C400FF79B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6CC534D163DA72DE36DB1A /* Pods-LHDragMeasureViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA8HYX6956;
+				INFOPLIST_FILE = LHDragMeasureViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.personal.demo.measureView.LHDragMeasureViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LHDragMeasureView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D74FDB9521DCA1BF00FF79B7 /* Build configuration list for PBXProject "LHDragMeasureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74FDBC421DCA1C400FF79B7 /* Debug */,
+				D74FDBC521DCA1C400FF79B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74FDBC621DCA1C400FF79B7 /* Build configuration list for PBXNativeTarget "LHDragMeasureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74FDBC721DCA1C400FF79B7 /* Debug */,
+				D74FDBC821DCA1C400FF79B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74FDBC921DCA1C400FF79B7 /* Build configuration list for PBXNativeTarget "LHDragMeasureViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74FDBCA21DCA1C400FF79B7 /* Debug */,
+				D74FDBCB21DCA1C400FF79B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74FDBCC21DCA1C400FF79B7 /* Build configuration list for PBXNativeTarget "LHDragMeasureViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74FDBCD21DCA1C400FF79B7 /* Debug */,
+				D74FDBCE21DCA1C400FF79B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74FDB9221DCA1BF00FF79B7 /* Project object */;
+}
